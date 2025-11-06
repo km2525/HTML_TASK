@@ -198,6 +198,8 @@
     width: 100%
 }
 
+}
+
 @media screen and (max-width: 1080px) {
     .Header {
         background-color:#fff;
@@ -305,8 +307,13 @@
 .HeaderNavList {
     align-items: center;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 @media screen and (max-width: 1080px) {
     .HeaderNavList {
@@ -360,7 +367,10 @@
 
 .HeaderNavListItem {
     margin-right: 45px
+    
 }
+
+
 
 @media screen and (min-width: 768px) {
     .HeaderNavListItem {
@@ -394,6 +404,7 @@
 
 .HeaderNavListItem__link {
     display: block
+    
 }
 
 @media screen and (max-width: 1080px) {
